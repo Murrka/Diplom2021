@@ -1,0 +1,1119 @@
+/*Общие стили проекта*/
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc65;
+}
+.SectionHead{
+    margin-left: 33%;
+    margin-right: 33%;
+    height: 25vh;
+   
+}
+.logo-title{
+    position: relative;
+    float: left;
+    height: inherit;
+}
+.logo-title>img{
+    position: relative;
+    float: left;
+    margin-top: 5em;
+    margin-left: 5em;
+    width: 100px;
+}
+.h1-title{
+    position: relative;
+    float: left;
+    width: 70%;
+    margin-top: 5em;
+}
+.h1-title>h1{
+    color: #1c115f;
+}
+
+.FormBody{
+    height: 49vh;
+    border: 3.5px rgba(0, 46, 72, 0.85) solid;
+    background-color: white;
+}
+.FormDiv>h1{
+    margin-left: 1em;
+    color: #1c115f;
+}
+.SectionBody{
+    margin-left: 37%;
+    margin-right: 38%;
+    height: 45vh;
+    
+}
+.Email-div>h2{
+    margin-left: 1.3em;
+    margin-bottom: 0.2em;
+    color: #1c115f;
+}
+.Password-div>h2{
+    margin-left: 1.3em;
+    margin-bottom: 0.2em;
+    color: #1c115f;
+}
+.Email-body,.Password-body{
+    margin-left: 1.3em;
+    height: 2.2em;
+    width: 18em;
+    border: 3.5px rgba(0, 46, 72, 0.85) solid;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+a{
+	text-decoration: none;
+    color: #1c115f;
+}
+.FormSupport>h3{
+    margin-left: 1.2em;
+    
+}
+.FormButton{
+    border: none;
+    background-color: rgba(0, 46, 72, 0.85);
+    color: white;
+    font-size: 1.27em;
+    height: 2.6em;
+    width: 8em;
+    margin-top: 1em;
+    margin-left: 6.5em;
+}
+.SectionFooter{
+    margin-top: 7em;
+    height: 18vh;
+    background-color: rgba(0, 46, 72, 0.85);
+    margin-bottom: 0;
+}
+.SectionDiv{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 20%;
+}
+.SectionFooterNav{
+    position: relative;
+    float: left;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 2em;
+    margin-top: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.14em;
+}
+.SectionLanguageDiv{
+    position: relative;
+    float: right;
+    margin-top: 3em;
+    margin-right: 0.5em;
+}
+.SectionLanguageDiv>select{
+    width: 8em;
+    height: 2em;
+}
+#perem{
+    position: relative;
+    float: left;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+#copy{
+    position: relative;
+    float: left;
+    color: white;
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*CSS инструкция для home страницы*/
+.SectionNavigation{
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 46, 72, 0.85);
+}
+.DivTitle{
+    position: relative;
+    float: left;
+    margin-top: 1em;
+    margin-left: 4em;
+}
+.DivTitle>img{
+    position: relative;
+    float: left;
+    width: 100px;
+}
+.TitleText{
+    position: relative;
+    float: left;
+    width: 25em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+.TitleText>h1{
+    color: white;
+}
+.DivNav{
+    position: relative;
+    float: left;
+    width: 52em;
+    margin-top: 3em;
+}
+.menu{
+    
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #1c115f;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 2em;
+    background: white;
+    width: 6em;
+    height: 1.4em;
+    margin-left: 0.3em;
+    display: inline-block;
+}
+.menu li{
+    display: inline;
+}
+.menu a:hover{
+    background: #e6984d;
+    color: white;
+}
+#active{
+    background: #e6984d;
+    color: white;
+}
+.DivExit{
+    position: relative;
+    float: right;
+    margin-right: 4em;
+    margin-top: 3em;
+}
+.DivExit p{
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-size: 1.65em;
+    color: white;
+}
+.DivExit>img{
+    position: relative;
+    height: 30px;
+    margin-left: 0.5em;
+}
+
+/*Тело страницы для home discipline и тд*/
+.SectionBodyHome{
+    width: 100%;
+    min-height: 60vh;
+}
+.LeftBar{
+    position: relative;
+    float: left;
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 26em;
+}
+.DivPolInfo{
+    position: relative;
+    float: left;
+    width: 26em;
+    background-color: #e6984d;
+}
+.DivPolInfo h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.55em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.DivContentHome{
+    position: relative;
+    float: left;
+    width: 90em;
+}
+.DivContentHome h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+.DivInfoDis{
+    position: relative;
+    float: left;
+    margin-top: 1em;
+    min-height: 27em;
+    background-color:#e6984d;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.DivInfoDis a{
+    margin-bottom: 0.3em;
+    color: #1c115f;
+}
+a #BoxDis{
+    width: 18.6em;
+    height: 3em;
+    font-size: 1.40em;
+    background-color: white;
+}
+a h3{
+    margin: 0;
+    padding: 0;
+    padding-left: 0.4em;
+    padding-top: 0.6em;
+}
+
+.Zagolovok{
+    position: relative;
+    float: left;
+    color: #1c115f;
+    margin-top: 2em;
+    margin-left: 4.5em;
+    width: 80em;
+}
+.DivBoxs{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 65em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.DivBoxs a{
+    margin-right: 2em;
+    margin-bottom: 3em;
+    color: #1c115f;
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+#Catt #Box{
+    width: 10em;
+    height: 3.5em;
+    margin: auto;
+    font-size: 1.85em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+}
+.DivHBoxs a{
+    margin-bottom: 3em;
+    margin-right: 2em;
+    color: #1c115f;
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+.DivHBoxs{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 80em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#Catt #HBox{
+    width: 20em;
+    height: 3.5em;
+    margin: auto;
+    font-size: 1.85em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+}
+#HBox h3{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.DivMBoxs a{
+    margin-bottom: 3em;
+    margin-right: 2em;
+    color: #1c115f;
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+.DivMBoxs{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 80em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#Catt #MBox{
+    width: 15em;
+    height: 3.5em;
+    margin: auto;
+    font-size: 1.85em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+}
+#MBox h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#Catt:nth-child(1n+4){
+    box-shadow: 0px 6px 8px 7px #e6984d;
+}
+.DivHBoxs #Catt:nth-child(1n+1){
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+.DivMBoxs #Catt:nth-child(1n+1){
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+#Catt:nth-child(1n+7){
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+.DivHBoxs #Catt:last-child{
+    box-shadow: 0px 6px 8px 7px #31cf46;
+}
+.DivHBoxs .Catt:last-child{
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85) !important;
+}
+#Catt h3:last-child{
+    text-align: center;
+    margin-top: 0.5em;
+}
+#Catt:hover{
+    box-shadow: none !important;
+}
+.DivMBoxs_Mouth{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 80em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.BoxDate{
+    color: #1c115f;
+    font-size: 1.37em;
+    margin-bottom: 0.5em;
+}
+.BoxDate h3{
+    position: relative;
+    float: left;
+    width: 20em;
+    margin-left: 1em;
+}
+.BoxDate div{
+    position: relative;
+    float: left;
+    width: 50em;
+    height: 2px;
+    background: black;
+}
+#aFile{
+    background: white;
+    margin-bottom: 0.5em;
+}
+.BoxFile{
+    width: 59em;
+    background: white;
+    font-size: 1.16em;
+    margin-bottom: 0.5em;
+}
+.BoxFile p{
+    margin-left: 0.2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.BoxFile span{
+    position: relative;
+    float: left;
+    margin-top: 0.5em;
+    margin-left: 0.2em;
+}
+.BoxDate + a{
+    margin-top: 0.7em;
+}
+.Clear{
+    clear: both;
+}
+.Add{
+    position: relative;
+    float: left;
+    background: white;
+    border: 2px solid rgba(0, 46, 72, 0.85);
+    border-radius: 4px;
+    margin-top: 2em;
+    margin-left: 4.5em;
+    margin-right: 80%;
+    width: 10em;
+    height: 2em;
+    text-align: center;
+}
+.Add h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.25em;
+}
+.Add:hover{
+    background: #e6984d;
+    color: white;
+}
+.BoxFile form{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: right;
+}
+.DeleteFile{
+    font-size: 1em;
+}
+/*Форма добавления файла*/
+.FormFileAdd{
+    position: relative;
+    float: left;
+    margin-left: 4.5em;
+    margin-top: 6em;
+}
+.FormFileAdd p{
+    margin: 0;
+    padding: 0;
+    color: #1c115f;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.56em;
+}
+.FormFileAdd input{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.34em;
+}
+.FormFileAdd select{
+    font-size: 1.34em;
+}
+.FormFileAdd input:nth-child(1n+3){
+    background: white;
+}
+
+
+
+
+
+/*Style admin panel*/
+.DivPanel{
+    position: relative;
+    float: left;
+    color: #1c115f;
+    background: white;
+    width: 25em;
+    margin-left: 2em;
+    margin-top: 2.5em;
+    border-radius: 4px;
+    text-align: center;
+}
+.DivPanel:hover{
+    background: #e6984d;
+    color: white;
+}
+.DivAdminInfo{
+    position: relative;
+    float: left;
+    background-color: #e6984d;
+}
+.DivAdminInfo h2{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.55em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.DivBoxs{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 65em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.DivBoxs a{
+    margin-right: 2em;
+    margin-bottom: 3em;
+    color: #1c115f;
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+#CattAdmin #Box{
+    width: 10em;
+    height: 2.5em;
+    margin: auto;
+    font-size: 1.85em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    background-color: white;
+    border-radius: 5px;
+}
+#CattAdmin:nth-child(1n+4){
+    box-shadow: 0px 6px 8px 7px rgba(0, 46, 72, 0.85);
+}
+#CattAdmin:nth-child(1n+7){
+    box-shadow: 0px 6px 8px 7px #46f18d;
+}
+#CattAdmin:hover{
+    box-shadow: none !important;
+}
+
+.DivAdminBar{
+    position: relative;
+    float: left;
+    margin-top: 1em;
+    background-color:#e6984d;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.DivAdminBar a{
+    margin-bottom: 0.3em;
+    color: #1c115f;
+}
+a #BoxAdmin{
+    width: 18.6em;
+    height: 3em;
+    font-size: 1.40em;
+    background-color: white;
+}
+.ActiveBox::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 15px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox2::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 85px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox3::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 155px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox4::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 230px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox5::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 300px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox6::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 375px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.ActiveBox7::after{
+    content: '';
+    position: absolute;
+    right: -40px;
+    top: 445px;
+    border: 20px solid transparent;
+    border-left: 20px solid white;
+}
+.AddUser{
+    position: relative;
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 65em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.AddUser form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.AddUser div{
+    position: relative;
+    float: left;
+    margin-left: 3em;
+}
+.AddUser p{
+    font-size: 1.57em;
+    margin-bottom: 0.5em;
+    color: #1c115f;
+}
+.google_table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 3em;
+}
+.hidden{
+    margin: 0;
+}
+.AddUser input{
+    font-size: 1.67em;
+}
+.AddUser select{
+    font-size: 1.67em;
+}
+.AddUser div:nth-child(1n+3){
+    margin-right: 38em;
+}
+.AddUser div:last-child{
+    margin-top: 3em;
+}
+.google_table>div{
+    margin-left: 0;
+    margin-right: 1em;
+    margin-top: 0 !important;
+}
+.Error{
+    position: relative;
+    float: left;
+    width: 45em;
+    background: rgb(223, 42, 42);
+    color: rgb(208, 247, 247);
+    margin-top: 1.5em;
+    margin-left: 7em;
+    border-radius: 3px;
+}
+.Error h3{
+    position: relative;
+    float: left;
+    margin-left: 1em;
+}
+.closeError{
+    position: relative;
+    float: right;
+    background: none;
+    border:none;
+    font-size: 1.22em;
+}
+.AddUser textarea{
+    font-size: 1.67em;
+    resize: none;
+}
+.CreateTask div:last-child>input{
+    background: #71f082;
+    border-radius: 3px;
+}
+.Success{
+    background: rgb(46, 207, 46);
+    color: white;
+}
+.Index{
+    margin-left: 2em;
+    width: 25em;
+}
+.Edit{
+    position: relative;
+    margin-left: 5em;
+    width: 85em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-top: 6em;
+}
+.row{
+    position: relative;
+    width: 100%;
+    height: 3em;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.cell{
+    position: relative;
+    width: 33%;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: white;
+    border: 2pt solid rgba(0, 46, 72, 0.85);
+}
+.row2{
+    height: auto;
+}
+.cell3{
+    border-radius: 5px !important;
+    width: 100%;
+}
+.cell a{
+    color: rgb(247, 71, 71);
+}
+.cell h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+.cell:first-child{
+    border-radius: 5px 0 0 5px;
+    flex-shrink: 5;
+}
+.cell:last-child{
+    border-radius: 0 5px 5px 0;
+    flex-shrink: 2;
+}
+.h3{
+    position: relative;
+    color: #1c115f;
+    font-size: 1.34em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+.rowTeachers .cell:first-child{
+    flex-shrink: 9 !important;
+}
+.cell:nth-child(3){
+    flex-shrink: 4;
+}
+.cell:nth-child(4){
+    flex-shrink: 4;
+}
+.cell:nth-child(5){
+    flex-shrink: 4;
+}
+.rowStudents .cell:nth-child(6){
+    flex-shrink: 3;
+}
+.rowStudents{
+    height: auto;
+}
+.green{
+    color: green !important;
+}
+.line{
+    height: 2px;
+    width: 75%;
+    margin-left: 2.6em;
+    background: rgb(56, 56, 56);
+}
+.h2{
+    position: relative;
+    color: #1c115f;
+    font-size: 1.76em;
+    margin-top: 0;
+    margin-bottom: 0.7em;
+}
+.info{
+    position: relative;
+    float: left;
+    color: #1c115f;
+    margin-left: 5em;
+    margin-top: 1.5em;
+}
+.info h3{
+    margin: 0;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    padding: 0;
+    font-size: 1.26em;
+}
+.info h3:first-child{
+    margin-left: 0;
+    font-size: 1.67em;
+}
+.Del_file{
+    position: relative;
+    float: right;
+    color:  rgb(247, 71, 71);
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+.Del_file h3{
+    padding: 0;
+}
+.frame{
+    margin-top: 1em;
+    margin-left: 4.5em;
+    width: 85em;
+    height: 45em;
+}
+
+#red{
+    position: relative;
+    float: left;
+    margin-top: 2em;
+    margin-left: 4.5em;
+    color: #2b9c3a;
+}
+.DivStatistic{
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+.DivStatistic h3{
+    margin-top: 0.3em ;
+    margin-left: 0.5em;
+    color: #1c115f;
+}
+.DivStatistic h4{
+    margin-top: 0.3em ;
+    margin-left: 0.5em;
+    color: #1c115f;
+}
+.scale_contein{
+    margin-top: 0.5em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.scale_div{
+    width: 800px;
+    height: 2em;
+    border: 2px solid rgb(66, 66, 66);
+    text-align: center;
+}
+#execute_study_load{
+    position: relative;
+    float: left;
+    height: inherit;
+    background: rgb(46, 207, 46);
+    text-align: center;
+}
+#execute_study_load h4{
+    white-space: nowrap;
+}
+.scoreStudentsForm{
+    position: relative;
+    float: right;
+    margin-right: 10em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+.scoreStudentsForm h3{
+    margin-top: 0.2em;
+    width: 5em;
+    font-size: 1em;
+}
+.scoreStudentsForm select,input{
+    font-size: 1em;
+}
+.contein_Statistic{
+    margin-top: 3em;
+    margin-left: 4em;
+    width: 82em;
+    border: 2px solid rgba(0, 46, 72, 0.85);
+}
+.Name_dis_contein{
+    position: relative;
+    float: left;
+    height: 3em;
+    margin-top: -1.5em;
+    margin-left: 0.5em;
+    margin-right: 45%;
+    background: rgb(0, 46, 72);
+}
+.Name_dis_contein h2{
+    position: relative;
+    float: left;
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: #fef8e5;
+}
+.Name_group_contein{
+    position: relative;
+    margin-top: 2em;
+    margin-left: 2.6em;
+    font-size: 1.22em;
+    color: #1c115f;
+}
+.Name_group_contein h3{
+    margin-bottom: 0.5em;
+}
+.Mouth{
+    position: relative;
+    margin-left: 3.5em;
+    font-size: 1.22em;
+}
+.table_flex_statistic{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 3.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 2px solid rgb(0, 46, 72);
+}
+.table_row{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.table_row div{
+    border-bottom: 1px solid rgb(0, 46, 72);
+    border-right: 1px solid rgb(0, 46, 72);
+}
+.table_row div:last-child{
+    border-bottom: none;
+}
+.table_row h3{
+    margin-right: 0.5em;
+}
+.Study_load_time{
+    font-size: 1.22em;
+    color: #1c115f;
+    margin-left: 2.6em;
+}
+.snoska{
+    margin-left: 3.5em;
+    color: #1c115f;
+}
+.time{
+    margin-top: -0.6em;
+}
+.time h3{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.Not_tasks{
+    margin-left: 29em;
+    color: #1c115f;
+}
+.form_stat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.form_stat div{
+    background: white;
+    color: #e6984d;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.form_stat div:nth-last-child(-n+1){
+    background: none;
+}
+.otchet{
+    background: white !important;
+}
+.otchet input{
+    margin-left: 4em;
+}
+.button_otchet{
+    margin-left: 5.5em;
+}
+.form_stat input,p,select{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    font-size: 1.44em;
+}
+.stat_student{
+    color: #1c115f;
+    position: relative;
+    float: left;
+    margin-top: 0.5em;
+    margin-left: 5em;
+    width: 80em;
+}
+.scale_student{
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 2em;
+    border: 2px solid rgb(66, 66, 66);
+    text-align: center;
+}
+.scale_execute_student{
+    position: relative;
+    float: left;
+    height: inherit;
+    background: rgb(46, 207, 46);
+    text-align: center;
+    color: #1c115f;
+}
+.scale_student h4{
+    white-space: nowrap;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.student_task{
+    position: relative;
+    float: left;
+}
+.student_task h3{
+    width: 15em;
+    margin-top: -0.4em;
+    margin-bottom: 0.6em;
+}
+.scoreH3{
+    float: right !important;
+}
